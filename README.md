@@ -6,9 +6,11 @@ Pour pouvoir se connecter, il suffit de lancer le fichier *login.php* et de rent
 
 <ins>Exemple connexion refusée :</ins>
 
+![log_faux](https://user-images.githubusercontent.com/93133836/213579206-78e2d688-f770-447c-8e1e-39418e1dd689.png)
 
 <ins>Exemple de connexion réussie --> redirection vers *services.php* :</ins>
 
+![log_true](https://user-images.githubusercontent.com/93133836/213579254-b2207730-256b-4038-b409-6a9863ebb95d.png)
 
 ## Vérification nombre de connexions
 
@@ -20,12 +22,15 @@ Si c'est le cas, on incrémente la variable du nombre de connexions et on vérif
 
 <ins>Résultat affiché pour 1 connexion en moins de 10 minutes :</ins>
 
+![1_co](https://user-images.githubusercontent.com/93133836/213579307-e9e75782-b70b-4377-8073-a589f6f0d5f6.png)
 
 <ins>Résultat affiché pour 10 connexions en moins de 10 minutes :</ins>
 
+![10_co](https://user-images.githubusercontent.com/93133836/213579333-41883c54-eab5-40e8-8af8-9db6aa205df4.png)
 
 <ins>Résultat affiché pour plus de 10 connexions en moins de 10 minutes :</ins>
 
+![sup_10_co](https://user-images.githubusercontent.com/93133836/213579359-4f0f79fc-37a8-4c7e-abee-ca5a2e38896b.png)
 
 ## Problème gestion du maximum de connexion avec la page php
 
